@@ -110,6 +110,13 @@ margin-left: 8%;
 #track{
  margin-left: 0px;
 }
+.camera{
+	font-family: "Amaranth", sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 100px;
+	font-style: normal;
+}
 section{
 	height: 1500px;
 	background-color: rgba(30,30,30,.5);
