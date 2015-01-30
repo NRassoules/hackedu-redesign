@@ -1,5 +1,5 @@
 body{
-	background-image: url("");
+	background-image: url("hackedumeetup-1780.jpg");
 	background-size: cover !important;
 	background-repeat: no-repeat;
 }
@@ -19,10 +19,10 @@ a:visited{
 	color: white;
 }
 header{
-	background-color: #FF1744;
+	background-color: transparent;
 	position: relative;
 	width: 100%;
-	margin-top: -35px;
+	margin-top: -25px;
 	padding-left: 10px;
 }
 header ul {
@@ -44,18 +44,15 @@ section{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	  background: -webkit-linear-gradient(left top, rgba(211,89,93,1) , rgba(211,89,93,1)); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(bottom right, rgba(211,89,93,1), rgba(211,89,93,1)); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(bottom right, rgba(211,89,93,1),rgba(211,89,93,1)); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(to bottom right, rgba(211,89,93,1),rgba(211,89,93,1)); /* Standard syntax */
+	background:rgba(20,20,20,.8);
 }
 p{
 	font-family: "Open Sans", sans-serif;
 	font-size: 2.1em;
 	font-weight: 300;
 	color: white;
-	padding-left: 10%;
-	padding-right: 10%; 
+	padding-left: 5%;
+	padding-right: 5%; 
 }
 .lol{
 	font-family: "Amaranth", sans-serif;
@@ -115,10 +112,11 @@ margin-left: 8%;
 }
 section{
 	height: 1500px;
+	background-color: rgba(30,30,30,.5);
+	background-image: url("http://maxmert.com/img/mainmenu.png");
 }
 body{
-	background-image: url("http://maxmert.com/img/mainmenu.png");
-	
+	background-image: none;
 }
 /*@media only screen and (max-width: 960px), only screen and (max-device-width: 480px) {
 	html,body
@@ -166,9 +164,9 @@ section{
 	}
 	button{
 		padding: 15px 25px 15px 25px;
-	}
+	}*/
 
-}*/
+}
 @media only screen and (min-width: 2000px), only screen and (min-device-width: 2000px) {
 	.lol{
 		font-size: 2.6em;
